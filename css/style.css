@@ -381,6 +381,7 @@ header p {
   gap: 0.75rem;
 }
 
+
 /* ==============================
    14. RESPONSIVE DESIGN
    ============================== */
@@ -524,8 +525,29 @@ header p {
    16. FOOTER
    ============================== */
 
-footer {
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+
+  padding: 2rem 1rem;
   margin-top: 3rem;
-  font-size: 0.85rem;
-  color: #777777;
+
+  background-color: #fff0f5;
+  color: #7d3655;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #a52a5a;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
